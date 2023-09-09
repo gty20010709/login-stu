@@ -1,2 +1,8 @@
 
+config
+
+*.exe
+*.zip
+*.tar.gz
+
 dist/
