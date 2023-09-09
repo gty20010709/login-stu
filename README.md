@@ -22,12 +22,12 @@ Method: POST
 
 ```go
 payload := url.Values{
-		"opr":         {"pwdLogin"},
-		"userName":    {username},
-		"pwd":         {password},
-		"ipv4or6":     {""},
-		"rememberPwd": {"0"},
-	}
+    "opr":         {"pwdLogin"},
+    "userName":    {username},
+    "pwd":         {password},
+    "ipv4or6":     {""},
+    "rememberPwd": {"0"},
+}
 
 ```
 
@@ -37,8 +37,8 @@ payload := url.Values{
 
 payload := url.Values{
 
-    "opr":      "logout", 
-    "ipv4or6" : ""
+    "opr":      {"logout"}, 
+    "ipv4or6" : {""}
 }
 
 ```
